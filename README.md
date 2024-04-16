@@ -3,13 +3,13 @@ Bir arkadaşa hayır yapmak amacıyla geliştirilmiş olan bu selenium python ot
 
 ## Proje Yapısı
 
-### kontrol.py
+`kontrol.py`
 - Koda tanımlı olan kart idsini kullanarak bursa kartın sitesinden kullanıcının bakiyesini kontrol eder ve eğer bakiye değişirse para.py dosyasını çalıştırır.
 
-### para.py
+`para.py`
 - Koda tanımlı olan kart id ve diğer gerekli bilgileri forma doldurur ve ödeme kısmına geçer, kredi kartı bilgilerini de doldurduktan sonra 3D secure doğrulama kısmına geçer.Bu doğrulama kodu alma kısmı şöyle gerçekleşiyor: Android telefonlarda MacroDroid isimli bir otomasyon uygulaması var, bu uygulamada ayarladıgımız makro telefona gelen her sms'i bizim 3d.php dosyamıza post isteği ile yolluyor, php kodu sadece doğrulama kodu olan kısmı ayırıyor ve bir txt dosyasına kaydediyor.Bilgisayarınızda çalışan python kodu bu txt dosyasına erişip kodu yazıyor ve hayırlı olsun ödeme tamamlandı.
 
-### 3d.php
+`3d.php`
 - MacroDroid uygulamamızdan gelen 3D secure doğrulama kodunu içeren post isteği alan ve kodu txt dosyasına kaydeden php kodu.
 
 ## Nasıl Kullanılır

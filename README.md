@@ -1,5 +1,6 @@
 # Zynpbus: Otomatik Otobüs Kartı Bakiye Yükleyici
 Bir arkadaşa hayır yapmak amacıyla geliştirilmiş olan bu selenium python otomasyonu, koda tanımlamış olduğunuz otobüs kartı id no verisi kullanarak her 1 dakika bir kontrol eder otobüs kartınız ile bir biniş yaptığınızda yani bakiyeniz değiştiğinde yine koda tanımlamış olduğunuz kredi veya banka kartı bilgilerini kullanarak kartınıza para yükler.
+YANİ BAKİYENİZ HİÇ AMA HİÇ DEĞİŞMEZ
 
 ## Proje Yapısı
 
@@ -19,3 +20,10 @@ Bir arkadaşa hayır yapmak amacıyla geliştirilmiş olan bu selenium python ot
 **Adım 2:** Android telefonunuza MacroDroid uygulamasını yükleyip, sağ alttaki artı butonuna tıklayıp yeni makro ekleyelim.Tetikleyiciler kısmında herhangi bir kişiden sms gelmesi şeklinde eylemler kısmını ise en altta olan web etkileşimleri kısmından http olarak istek türünü post içerik gövdesini text plain olarak ayarlayıp sagdaki 3 noktaya basıyoruz, oradan sms mesajı yazıyoruz ve son olarak linki sizin domainize göre düzenleyip kaydediyoruz.
 
 **Adım 3:** 2 python dosyamızda ki verileri (kredi kartı no, infinity freeden alıp txt dosyanini oluşturduğunuz link filan) kendimize göre düzenledikten sonra geriye çalıştırıp, arkamıza yaslayıp beklemek kalıyor.
+
+**Kart İd'mi Nasıl Öğrenicem ?**
+>>>>Dostum eğer öğrenci otobus kartın varsa kartının ön yüzünde sol altta yazıyor, eğer öğrenci kartın yoksa kartına herhangi bir dolum yerinde para yükledikten sonra sana fiş vericekler onda yazıyor.
+
+## Bir Kaç Görsel
+![alt text](https://i.hizliresim.com/ll0t8n8.png)
+![alt text](https://i.hizliresim.com/gm2zpd3.png)

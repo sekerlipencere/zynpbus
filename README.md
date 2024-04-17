@@ -1,6 +1,7 @@
 # Zynpbus: Otomatik Otobüs Kartı Bakiye Yükleyici
 Bir arkadaşa hayır yapmak amacıyla geliştirilmiş olan bu selenium python otomasyonu, koda tanımlamış olduğunuz otobüs kartı id no verisi kullanarak her 1 dakika bir kontrol eder otobüs kartınız ile bir biniş yaptığınızda yani bakiyeniz değiştiğinde yine koda tanımlamış olduğunuz kredi veya banka kartı bilgilerini kullanarak kartınıza para yükler.
 YANİ BAKİYENİZ HİÇ AMA HİÇ DEĞİŞMEZ
+
 <img src="https://i.hizliresim.com/8gzwnk8.png" alt="alt text" width="554" height="198">
 ## Proje Yapısı
 

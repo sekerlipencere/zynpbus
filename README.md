@@ -3,6 +3,7 @@ Bir arkadaşa hayır yapmak amacıyla geliştirilmiş olan bu selenium python ot
 YANİ BAKİYENİZ HİÇ AMA HİÇ DEĞİŞMEZ
 
 <img src="https://i.hizliresim.com/8gzwnk8.png" alt="alt text" width="554" height="198">
+
 ## Proje Yapısı
 
 `kontrol.py`

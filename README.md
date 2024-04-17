@@ -30,5 +30,6 @@ YANİ BAKİYENİZ HİÇ AMA HİÇ DEĞİŞMEZ
                                                                                                                                        
 
 ## Bir Kaç Görsel
+
 ![alt text](https://i.hizliresim.com/ll0t8n8.png)
 ![alt text](https://i.hizliresim.com/gm2zpd3.png)
